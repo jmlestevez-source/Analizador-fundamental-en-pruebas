@@ -1,0 +1,27 @@
+name: Weekly Screener Cache
+
+on:
+  schedule:
+    # Saturdays early morning in Europe/Madrid. 05:10 UTC = 06:10 CET / 07:10 CEST.
+    - cron: '10 5 * * 6'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-screener:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate weekly top 50 screener JSON
+        run: node scripts/generate-screener.mjs
+      - name: Commit cached screener if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update weekly screener cache'
+          file_pattern: public/data/screener-top-50.json
