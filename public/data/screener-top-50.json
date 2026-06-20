@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T13:39:54.634Z",
+  "generatedAt": "2026-06-20T13:58:49.704Z",
   "sources": {
     "sp500": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
     "nasdaq100": "https://en.wikipedia.org/wiki/Nasdaq-100",
@@ -101,25 +101,6 @@
     },
     {
       "rank": 6,
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc.",
-      "sources": [
-        "sp500",
-        "nasdaq100",
-        "russell1000"
-      ],
-      "globalScore": 87,
-      "qualityScore": 96,
-      "financialHealthScore": 96,
-      "profitabilityScore": 92,
-      "growthScore": 100,
-      "valuationScore": 45,
-      "technicalScore": 100,
-      "price": 368.03,
-      "currency": "USD"
-    },
-    {
-      "rank": 7,
       "symbol": "GOOG",
       "name": "Alphabet Inc.",
       "sources": [
@@ -135,6 +116,25 @@
       "valuationScore": 45,
       "technicalScore": 100,
       "price": 367.46,
+      "currency": "USD"
+    },
+    {
+      "rank": 7,
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "sources": [
+        "sp500",
+        "nasdaq100",
+        "russell1000"
+      ],
+      "globalScore": 87,
+      "qualityScore": 96,
+      "financialHealthScore": 96,
+      "profitabilityScore": 92,
+      "growthScore": 100,
+      "valuationScore": 45,
+      "technicalScore": 100,
+      "price": 368.03,
       "currency": "USD"
     },
     {
