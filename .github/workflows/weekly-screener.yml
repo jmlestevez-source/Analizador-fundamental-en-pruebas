@@ -1,0 +1,54 @@
+name: Weekly Top 50 Screener Cache
+
+on:
+  # Ejecución automática semanal.
+  # GitHub Actions usa UTC.
+  # Sábado a las 13:00 hora de Madrid:
+  # - En horario de invierno CET, Madrid = UTC+1, por tanto serían las 12:00 UTC.
+  # - En horario de verano CEST, Madrid = UTC+2, por tanto serían las 11:00 UTC.
+  #
+  # Como GitHub cron no permite zona horaria dinámica, dejamos 11:00 UTC.
+  # En horario de verano ejecutará a las 13:00 Madrid.
+  # En horario de invierno ejecutará a las 12:00 Madrid.
+  schedule:
+    - cron: "0 11 * * 6"
+
+  # Permite ejecución manual desde la pestaña Actions de GitHub.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-screener-cache:
+    name: Generate and commit weekly Top 50 screener
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Top 50 screener cache
+        run: npm run screener:weekly
+
+      - name: Check generated screener file exists
+        run: |
+          test -f public/data/screener-top-50.json
+          echo "Generated screener cache:"
+          ls -lh public/data/screener-top-50.json
+
+      - name: Commit updated screener cache
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update weekly top 50 screener cache"
+          file_pattern: public/data/screener-top-50.json
