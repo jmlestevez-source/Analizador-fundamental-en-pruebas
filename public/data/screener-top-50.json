@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T21:47:52.733Z",
+  "generatedAt": "2026-07-04T12:09:56.530Z",
   "sources": {
     "sp500": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
     "nasdaq100": "https://en.wikipedia.org/wiki/Nasdaq-100",
@@ -135,6 +135,25 @@
     },
     {
       "rank": 8,
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "sources": [
+        "sp500",
+        "nasdaq100",
+        "russell1000"
+      ],
+      "globalScore": 84,
+      "qualityScore": 98,
+      "financialHealthScore": 96,
+      "profitabilityScore": 97,
+      "growthScore": 100,
+      "valuationScore": 26,
+      "technicalScore": 100,
+      "price": 351.41,
+      "currency": "USD"
+    },
+    {
+      "rank": 9,
       "symbol": "VRTX",
       "name": "Vertex Pharmaceuticals Incorporated",
       "sources": [
@@ -142,18 +161,18 @@
         "nasdaq100",
         "russell1000"
       ],
-      "globalScore": 85,
+      "globalScore": 84,
       "qualityScore": 93,
       "financialHealthScore": 100,
       "profitabilityScore": 94,
       "growthScore": 85,
-      "valuationScore": 44,
+      "valuationScore": 39,
       "technicalScore": 100,
       "price": 528.04,
       "currency": "USD"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "symbol": "CF",
       "name": "CF Industries Holdings, Inc.",
       "sources": [
@@ -171,7 +190,7 @@
       "currency": "USD"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "symbol": "TPR",
       "name": "Tapestry, Inc.",
       "sources": [
@@ -189,7 +208,7 @@
       "currency": "USD"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "symbol": "AU",
       "name": "AngloGold Ashanti plc",
       "sources": [
@@ -203,25 +222,6 @@
       "valuationScore": 94,
       "technicalScore": 25,
       "price": 84.65,
-      "currency": "USD"
-    },
-    {
-      "rank": 12,
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "sources": [
-        "sp500",
-        "nasdaq100",
-        "russell1000"
-      ],
-      "globalScore": 83,
-      "qualityScore": 98,
-      "financialHealthScore": 96,
-      "profitabilityScore": 97,
-      "growthScore": 100,
-      "valuationScore": 20,
-      "technicalScore": 100,
-      "price": 351.41,
       "currency": "USD"
     },
     {
@@ -532,6 +532,23 @@
     },
     {
       "rank": 30,
+      "symbol": "ARM",
+      "name": "Arm Holdings plc",
+      "sources": [
+        "nasdaq100"
+      ],
+      "globalScore": 80,
+      "qualityScore": 92,
+      "financialHealthScore": 100,
+      "profitabilityScore": 81,
+      "growthScore": 100,
+      "valuationScore": 20,
+      "technicalScore": 100,
+      "price": 315.28,
+      "currency": "USD"
+    },
+    {
+      "rank": 31,
       "symbol": "CART",
       "name": "Maplebear Inc.",
       "sources": [
@@ -548,7 +565,7 @@
       "currency": "USD"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "symbol": "HWM",
       "name": "Howmet Aerospace Inc.",
       "sources": [
@@ -566,7 +583,7 @@
       "currency": "USD"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "symbol": "TDC",
       "name": "Teradata Corporation",
       "sources": [
@@ -583,7 +600,7 @@
       "currency": "USD"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "symbol": "MTCH",
       "name": "Match Group, Inc.",
       "sources": [
@@ -600,7 +617,7 @@
       "currency": "USD"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "symbol": "FTNT",
       "name": "Fortinet, Inc.",
       "sources": [
@@ -616,23 +633,6 @@
       "valuationScore": 15,
       "technicalScore": 100,
       "price": 156.25,
-      "currency": "USD"
-    },
-    {
-      "rank": 35,
-      "symbol": "ARM",
-      "name": "Arm Holdings plc",
-      "sources": [
-        "nasdaq100"
-      ],
-      "globalScore": 79,
-      "qualityScore": 92,
-      "financialHealthScore": 100,
-      "profitabilityScore": 81,
-      "growthScore": 100,
-      "valuationScore": 15,
-      "technicalScore": 100,
-      "price": 315.28,
       "currency": "USD"
     },
     {
@@ -674,6 +674,24 @@
     },
     {
       "rank": 38,
+      "symbol": "FFIV",
+      "name": "F5, Inc.",
+      "sources": [
+        "sp500",
+        "russell1000"
+      ],
+      "globalScore": 79,
+      "qualityScore": 85,
+      "financialHealthScore": 93,
+      "profitabilityScore": 91,
+      "growthScore": 68,
+      "valuationScore": 44,
+      "technicalScore": 100,
+      "price": 408.14,
+      "currency": "USD"
+    },
+    {
+      "rank": 39,
       "symbol": "RL",
       "name": "Ralph Lauren Corporation",
       "sources": [
@@ -691,7 +709,7 @@
       "currency": "USD"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "symbol": "HIG",
       "name": "The Hartford Insurance Group, Inc.",
       "sources": [
@@ -709,7 +727,7 @@
       "currency": "USD"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "symbol": "MTG",
       "name": "MGIC Investment Corporation",
       "sources": [
@@ -726,7 +744,24 @@
       "currency": "USD"
     },
     {
-      "rank": 41,
+      "rank": 42,
+      "symbol": "HEI",
+      "name": "HEICO Corporation",
+      "sources": [
+        "russell1000"
+      ],
+      "globalScore": 78,
+      "qualityScore": 90,
+      "financialHealthScore": 83,
+      "profitabilityScore": 88,
+      "growthScore": 100,
+      "valuationScore": 20,
+      "technicalScore": 100,
+      "price": 362.09,
+      "currency": "USD"
+    },
+    {
+      "rank": 43,
       "symbol": "WST",
       "name": "West Pharmaceutical Services, Inc.",
       "sources": [
@@ -744,7 +779,7 @@
       "currency": "USD"
     },
     {
-      "rank": 42,
+      "rank": 44,
       "symbol": "CRUS",
       "name": "Cirrus Logic, Inc.",
       "sources": [
@@ -761,7 +796,7 @@
       "currency": "USD"
     },
     {
-      "rank": 43,
+      "rank": 45,
       "symbol": "EVR",
       "name": "Evercore Inc.",
       "sources": [
@@ -778,7 +813,7 @@
       "currency": "USD"
     },
     {
-      "rank": 44,
+      "rank": 46,
       "symbol": "LLY",
       "name": "Eli Lilly and Company",
       "sources": [
@@ -796,25 +831,25 @@
       "currency": "USD"
     },
     {
-      "rank": 45,
-      "symbol": "FFIV",
-      "name": "F5, Inc.",
+      "rank": 47,
+      "symbol": "APH",
+      "name": "Amphenol Corporation",
       "sources": [
         "sp500",
         "russell1000"
       ],
       "globalScore": 78,
-      "qualityScore": 85,
-      "financialHealthScore": 93,
-      "profitabilityScore": 91,
-      "growthScore": 68,
+      "qualityScore": 84,
+      "financialHealthScore": 69,
+      "profitabilityScore": 89,
+      "growthScore": 93,
       "valuationScore": 39,
       "technicalScore": 100,
-      "price": 408.14,
+      "price": 164.59,
       "currency": "USD"
     },
     {
-      "rank": 46,
+      "rank": 48,
       "symbol": "GWW",
       "name": "W.W. Grainger, Inc.",
       "sources": [
@@ -832,7 +867,7 @@
       "currency": "USD"
     },
     {
-      "rank": 47,
+      "rank": 49,
       "symbol": "SNDK",
       "name": "Sandisk Corporation",
       "sources": [
@@ -851,7 +886,7 @@
       "currency": "USD"
     },
     {
-      "rank": 48,
+      "rank": 50,
       "symbol": "TWLO",
       "name": "Twilio Inc.",
       "sources": [
@@ -865,41 +900,6 @@
       "valuationScore": 36,
       "technicalScore": 100,
       "price": 209.31,
-      "currency": "USD"
-    },
-    {
-      "rank": 49,
-      "symbol": "MS",
-      "name": "Morgan Stanley",
-      "sources": [
-        "sp500",
-        "russell1000"
-      ],
-      "globalScore": 78,
-      "qualityScore": 78,
-      "financialHealthScore": 74,
-      "profitabilityScore": 70,
-      "growthScore": 93,
-      "valuationScore": 55,
-      "technicalScore": 100,
-      "price": 213.93,
-      "currency": "USD"
-    },
-    {
-      "rank": 50,
-      "symbol": "VMI",
-      "name": "Valmont Industries, Inc.",
-      "sources": [
-        "russell1000"
-      ],
-      "globalScore": 78,
-      "qualityScore": 77,
-      "financialHealthScore": 78,
-      "profitabilityScore": 70,
-      "growthScore": 85,
-      "valuationScore": 56,
-      "technicalScore": 100,
-      "price": 555.35,
       "currency": "USD"
     }
   ]
