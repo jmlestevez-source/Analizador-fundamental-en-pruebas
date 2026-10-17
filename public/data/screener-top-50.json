@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T16:08:44.219Z",
+  "generatedAt": "2026-10-17T14:06:03.893Z",
   "sources": {
     "sp500": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
     "nasdaq100": "https://en.wikipedia.org/wiki/Nasdaq-100",
@@ -11,40 +11,23 @@
   "top50": [
     {
       "rank": 1,
-      "symbol": "MU",
-      "name": "Micron Technology, Inc.",
+      "symbol": "CF",
+      "name": "CF Industries Holdings, Inc.",
       "sources": [
         "sp500"
       ],
-      "globalScore": 94,
+      "globalScore": 89,
       "qualityScore": 93,
-      "financialHealthScore": 78,
-      "profitabilityScore": 100,
-      "growthScore": 100,
-      "valuationScore": 90,
-      "technicalScore": 100,
-      "price": 1029,
+      "financialHealthScore": 91,
+      "profitabilityScore": 94,
+      "growthScore": 93,
+      "valuationScore": 94,
+      "technicalScore": 75,
+      "price": 120.85,
       "currency": "USD"
     },
     {
       "rank": 2,
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 91,
-      "qualityScore": 99,
-      "financialHealthScore": 100,
-      "profitabilityScore": 97,
-      "growthScore": 100,
-      "valuationScore": 60,
-      "technicalScore": 100,
-      "price": 229.28,
-      "currency": "USD"
-    },
-    {
-      "rank": 3,
       "symbol": "EOG",
       "name": "EOG Resources, Inc.",
       "sources": [
@@ -55,132 +38,81 @@
       "financialHealthScore": 88,
       "profitabilityScore": 91,
       "growthScore": 100,
+      "valuationScore": 90,
+      "technicalScore": 75,
+      "price": 158.01,
+      "currency": "USD"
+    },
+    {
+      "rank": 3,
+      "symbol": "MU",
+      "name": "Micron Technology, Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 89,
+      "qualityScore": 93,
+      "financialHealthScore": 78,
+      "profitabilityScore": 100,
+      "growthScore": 100,
       "valuationScore": 93,
       "technicalScore": 75,
-      "price": 148.16,
+      "price": 878.84,
       "currency": "USD"
     },
     {
       "rank": 4,
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc.",
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
       "sources": [
         "sp500"
       ],
       "globalScore": 86,
-      "qualityScore": 97,
+      "qualityScore": 99,
       "financialHealthScore": 100,
-      "profitabilityScore": 92,
+      "profitabilityScore": 97,
       "growthScore": 100,
-      "valuationScore": 61,
+      "valuationScore": 60,
       "technicalScore": 75,
-      "price": 351.66,
+      "price": 214.13,
       "currency": "USD"
     },
     {
       "rank": 5,
-      "symbol": "GOOG",
-      "name": "Alphabet Inc.",
+      "symbol": "CBOE",
+      "name": "Cboe Global Markets, Inc.",
       "sources": [
         "sp500"
       ],
       "globalScore": 86,
-      "qualityScore": 97,
-      "financialHealthScore": 100,
-      "profitabilityScore": 92,
+      "qualityScore": 91,
+      "financialHealthScore": 83,
+      "profitabilityScore": 91,
       "growthScore": 100,
-      "valuationScore": 61,
-      "technicalScore": 75,
-      "price": 347.86,
+      "valuationScore": 56,
+      "technicalScore": 100,
+      "price": 314.98,
       "currency": "USD"
     },
     {
       "rank": 6,
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 86,
-      "qualityScore": 96,
-      "financialHealthScore": 96,
-      "profitabilityScore": 94,
-      "growthScore": 100,
-      "valuationScore": 39,
-      "technicalScore": 100,
-      "price": 318.84,
-      "currency": "USD"
-    },
-    {
-      "rank": 7,
-      "symbol": "ANET",
-      "name": "Arista Networks, Inc.",
+      "symbol": "TXN",
+      "name": "Texas Instruments Incorporated",
       "sources": [
         "sp500"
       ],
       "globalScore": 85,
-      "qualityScore": 100,
-      "financialHealthScore": 100,
-      "profitabilityScore": 100,
-      "growthScore": 100,
-      "valuationScore": 26,
-      "technicalScore": 100,
-      "price": 216.74,
-      "currency": "USD"
-    },
-    {
-      "rank": 8,
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 85,
-      "qualityScore": 94,
-      "financialHealthScore": 96,
-      "profitabilityScore": 89,
-      "growthScore": 100,
-      "valuationScore": 39,
-      "technicalScore": 100,
-      "price": 507.03,
-      "currency": "USD"
-    },
-    {
-      "rank": 9,
-      "symbol": "KEYS",
-      "name": "Keysight Technologies, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 85,
-      "qualityScore": 94,
-      "financialHealthScore": 88,
+      "qualityScore": 93,
+      "financialHealthScore": 86,
       "profitabilityScore": 94,
       "growthScore": 100,
       "valuationScore": 43,
       "technicalScore": 100,
-      "price": 382.75,
+      "price": 276.48,
       "currency": "USD"
     },
     {
-      "rank": 10,
-      "symbol": "COP",
-      "name": "ConocoPhillips",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 85,
-      "qualityScore": 86,
-      "financialHealthScore": 84,
-      "profitabilityScore": 78,
-      "growthScore": 100,
-      "valuationScore": 88,
-      "technicalScore": 75,
-      "price": 134.1,
-      "currency": "USD"
-    },
-    {
-      "rank": 11,
+      "rank": 7,
       "symbol": "OXY",
       "name": "Occidental Petroleum Corporation",
       "sources": [
@@ -193,11 +125,11 @@
       "growthScore": 100,
       "valuationScore": 88,
       "technicalScore": 75,
-      "price": 60.11,
+      "price": 62.38,
       "currency": "USD"
     },
     {
-      "rank": 12,
+      "rank": 8,
       "symbol": "VLO",
       "name": "Valero Energy Corporation",
       "sources": [
@@ -208,149 +140,64 @@
       "financialHealthScore": 84,
       "profitabilityScore": 68,
       "growthScore": 100,
-      "valuationScore": 73,
+      "valuationScore": 75,
       "technicalScore": 100,
-      "price": 433.75,
+      "price": 444.71,
       "currency": "USD"
     },
     {
-      "rank": 13,
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems, Inc.",
+      "rank": 9,
+      "symbol": "COP",
+      "name": "ConocoPhillips",
       "sources": [
         "sp500"
       ],
       "globalScore": 84,
-      "qualityScore": 95,
-      "financialHealthScore": 96,
-      "profitabilityScore": 91,
-      "growthScore": 100,
-      "valuationScore": 33,
-      "technicalScore": 100,
-      "price": 1386.29,
-      "currency": "USD"
-    },
-    {
-      "rank": 14,
-      "symbol": "TXN",
-      "name": "Texas Instruments Incorporated",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 84,
-      "qualityScore": 93,
-      "financialHealthScore": 86,
-      "profitabilityScore": 94,
-      "growthScore": 100,
-      "valuationScore": 39,
-      "technicalScore": 100,
-      "price": 283.74,
-      "currency": "USD"
-    },
-    {
-      "rank": 15,
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 83,
-      "qualityScore": 91,
-      "financialHealthScore": 100,
+      "qualityScore": 86,
+      "financialHealthScore": 84,
       "profitabilityScore": 78,
       "growthScore": 100,
-      "valuationScore": 36,
-      "technicalScore": 100,
-      "price": 608.1,
+      "valuationScore": 83,
+      "technicalScore": 75,
+      "price": 146.51,
       "currency": "USD"
     },
     {
-      "rank": 16,
-      "symbol": "FIX",
-      "name": "Comfort Systems USA, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 83,
-      "qualityScore": 91,
-      "financialHealthScore": 88,
-      "profitabilityScore": 86,
-      "growthScore": 100,
-      "valuationScore": 43,
-      "technicalScore": 100,
-      "price": 1715.69,
-      "currency": "USD"
-    },
-    {
-      "rank": 17,
-      "symbol": "SMCI",
-      "name": "Super Micro Computer, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 83,
-      "qualityScore": 73,
-      "financialHealthScore": 70,
-      "profitabilityScore": 55,
-      "growthScore": 100,
-      "valuationScore": 90,
-      "technicalScore": 100,
-      "price": 41.855,
-      "currency": "USD"
-    },
-    {
-      "rank": 18,
-      "symbol": "FTNT",
-      "name": "Fortinet, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 82,
-      "qualityScore": 95,
-      "financialHealthScore": 84,
-      "profitabilityScore": 100,
-      "growthScore": 100,
-      "valuationScore": 26,
-      "technicalScore": 100,
-      "price": 194.75,
-      "currency": "USD"
-    },
-    {
-      "rank": 19,
-      "symbol": "MRVL",
-      "name": "Marvell Technology, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 82,
-      "qualityScore": 91,
-      "financialHealthScore": 91,
-      "profitabilityScore": 83,
-      "growthScore": 100,
-      "valuationScore": 36,
-      "technicalScore": 100,
-      "price": 275.28,
-      "currency": "USD"
-    },
-    {
-      "rank": 20,
+      "rank": 10,
       "symbol": "SNDK",
       "name": "Sandisk Corporation",
       "sources": [
         "sp500"
       ],
-      "globalScore": 82,
+      "globalScore": 83,
       "qualityScore": 88,
       "financialHealthScore": 86,
       "profitabilityScore": 100,
       "growthScore": 75,
-      "valuationScore": 73,
+      "valuationScore": 80,
       "technicalScore": 75,
-      "price": 1581.82,
+      "price": 1299.3,
       "currency": "USD"
     },
     {
-      "rank": 21,
+      "rank": 11,
+      "symbol": "ANET",
+      "name": "Arista Networks, Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 82,
+      "qualityScore": 100,
+      "financialHealthScore": 100,
+      "profitabilityScore": 100,
+      "growthScore": 100,
+      "valuationScore": 33,
+      "technicalScore": 75,
+      "price": 176.98,
+      "currency": "USD"
+    },
+    {
+      "rank": 12,
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
       "sources": [
@@ -363,28 +210,28 @@
       "growthScore": 60,
       "valuationScore": 66,
       "technicalScore": 100,
-      "price": 718.67,
+      "price": 709.325,
       "currency": "USD"
     },
     {
-      "rank": 22,
-      "symbol": "APA",
-      "name": "APA Corporation",
+      "rank": 13,
+      "symbol": "NUE",
+      "name": "Nucor Corporation",
       "sources": [
         "sp500"
       ],
       "globalScore": 82,
-      "qualityScore": 82,
-      "financialHealthScore": 60,
-      "profitabilityScore": 97,
-      "growthScore": 85,
-      "valuationScore": 93,
-      "technicalScore": 75,
-      "price": 45.88,
+      "qualityScore": 80,
+      "financialHealthScore": 88,
+      "profitabilityScore": 60,
+      "growthScore": 100,
+      "valuationScore": 61,
+      "technicalScore": 100,
+      "price": 256.29,
       "currency": "USD"
     },
     {
-      "rank": 23,
+      "rank": 14,
       "symbol": "MPC",
       "name": "Marathon Petroleum Corporation",
       "sources": [
@@ -397,11 +244,28 @@
       "growthScore": 100,
       "valuationScore": 86,
       "technicalScore": 100,
-      "price": 455.03,
+      "price": 478.07,
       "currency": "USD"
     },
     {
-      "rank": 24,
+      "rank": 15,
+      "symbol": "INCY",
+      "name": "Incyte Corporation",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 81,
+      "qualityScore": 96,
+      "financialHealthScore": 91,
+      "profitabilityScore": 97,
+      "growthScore": 100,
+      "valuationScore": 66,
+      "technicalScore": 50,
+      "price": 113.07,
+      "currency": "USD"
+    },
+    {
+      "rank": 16,
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc.",
       "sources": [
@@ -414,11 +278,11 @@
       "growthScore": 100,
       "valuationScore": 26,
       "technicalScore": 100,
-      "price": 209.05,
+      "price": 186.03,
       "currency": "USD"
     },
     {
-      "rank": 25,
+      "rank": 17,
       "symbol": "NEM",
       "name": "Newmont Corporation",
       "sources": [
@@ -431,45 +295,11 @@
       "growthScore": 78,
       "valuationScore": 75,
       "technicalScore": 50,
-      "price": 117.84,
+      "price": 118.6,
       "currency": "USD"
     },
     {
-      "rank": 26,
-      "symbol": "CBOE",
-      "name": "Cboe Global Markets, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 81,
-      "qualityScore": 91,
-      "financialHealthScore": 83,
-      "profitabilityScore": 91,
-      "growthScore": 100,
-      "valuationScore": 56,
-      "technicalScore": 75,
-      "price": 304.16,
-      "currency": "USD"
-    },
-    {
-      "rank": 27,
-      "symbol": "APH",
-      "name": "Amphenol Corporation",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 81,
-      "qualityScore": 86,
-      "financialHealthScore": 69,
-      "profitabilityScore": 89,
-      "growthScore": 100,
-      "valuationScore": 48,
-      "technicalScore": 100,
-      "price": 87.24,
-      "currency": "USD"
-    },
-    {
-      "rank": 28,
+      "rank": 18,
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
       "sources": [
@@ -482,11 +312,28 @@
       "growthScore": 93,
       "valuationScore": 44,
       "technicalScore": 100,
-      "price": 535.07,
+      "price": 529.05,
       "currency": "USD"
     },
     {
-      "rank": 29,
+      "rank": 19,
+      "symbol": "APA",
+      "name": "APA Corporation",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 81,
+      "qualityScore": 82,
+      "financialHealthScore": 60,
+      "profitabilityScore": 97,
+      "growthScore": 85,
+      "valuationScore": 90,
+      "technicalScore": 75,
+      "price": 49.15,
+      "currency": "USD"
+    },
+    {
+      "rank": 20,
       "symbol": "CVX",
       "name": "Chevron Corporation",
       "sources": [
@@ -499,45 +346,62 @@
       "growthScore": 100,
       "valuationScore": 83,
       "technicalScore": 75,
-      "price": 211.98,
+      "price": 224.99,
       "currency": "USD"
     },
     {
-      "rank": 30,
-      "symbol": "KLAC",
-      "name": "KLA Corporation",
+      "rank": 21,
+      "symbol": "PSX",
+      "name": "Phillips 66",
       "sources": [
         "sp500"
       ],
-      "globalScore": 80,
-      "qualityScore": 90,
-      "financialHealthScore": 86,
-      "profitabilityScore": 97,
-      "growthScore": 85,
-      "valuationScore": 33,
-      "technicalScore": 100,
-      "price": 195.57,
-      "currency": "USD"
-    },
-    {
-      "rank": 31,
-      "symbol": "TER",
-      "name": "Teradyne, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 80,
-      "qualityScore": 88,
-      "financialHealthScore": 74,
-      "profitabilityScore": 89,
+      "globalScore": 81,
+      "qualityScore": 71,
+      "financialHealthScore": 63,
+      "profitabilityScore": 55,
       "growthScore": 100,
-      "valuationScore": 36,
+      "valuationScore": 85,
       "technicalScore": 100,
-      "price": 402.68,
+      "price": 293.17,
       "currency": "USD"
     },
     {
-      "rank": 32,
+      "rank": 22,
+      "symbol": "KEYS",
+      "name": "Keysight Technologies, Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 80,
+      "qualityScore": 94,
+      "financialHealthScore": 88,
+      "profitabilityScore": 94,
+      "growthScore": 100,
+      "valuationScore": 43,
+      "technicalScore": 75,
+      "price": 331.21,
+      "currency": "USD"
+    },
+    {
+      "rank": 23,
+      "symbol": "MNST",
+      "name": "Monster Beverage Corporation",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 80,
+      "qualityScore": 93,
+      "financialHealthScore": 91,
+      "profitabilityScore": 94,
+      "growthScore": 93,
+      "valuationScore": 20,
+      "technicalScore": 100,
+      "price": 45.73,
+      "currency": "USD"
+    },
+    {
+      "rank": 24,
       "symbol": "NTAP",
       "name": "NetApp, Inc.",
       "sources": [
@@ -550,28 +414,11 @@
       "growthScore": 100,
       "valuationScore": 44,
       "technicalScore": 100,
-      "price": 237.15,
+      "price": 203.8,
       "currency": "USD"
     },
     {
-      "rank": 33,
-      "symbol": "VEEV",
-      "name": "Veeva Systems Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 80,
-      "qualityScore": 87,
-      "financialHealthScore": 78,
-      "profitabilityScore": 89,
-      "growthScore": 93,
-      "valuationScore": 39,
-      "technicalScore": 100,
-      "price": 296.13,
-      "currency": "USD"
-    },
-    {
-      "rank": 34,
+      "rank": 25,
       "symbol": "ADI",
       "name": "Analog Devices, Inc.",
       "sources": [
@@ -584,62 +431,62 @@
       "growthScore": 100,
       "valuationScore": 43,
       "technicalScore": 100,
-      "price": 406.19,
+      "price": 395.44,
       "currency": "USD"
     },
     {
-      "rank": 35,
-      "symbol": "EME",
-      "name": "EMCOR Group, Inc.",
+      "rank": 26,
+      "symbol": "RMD",
+      "name": "ResMed Inc.",
       "sources": [
         "sp500"
       ],
       "globalScore": 80,
-      "qualityScore": 83,
-      "financialHealthScore": 88,
-      "profitabilityScore": 71,
-      "growthScore": 93,
-      "valuationScore": 73,
+      "qualityScore": 86,
+      "financialHealthScore": 100,
+      "profitabilityScore": 94,
+      "growthScore": 60,
+      "valuationScore": 69,
       "technicalScore": 75,
-      "price": 789.45,
+      "price": 238.97,
       "currency": "USD"
     },
     {
-      "rank": 36,
-      "symbol": "CF",
-      "name": "CF Industries Holdings, Inc.",
+      "rank": 27,
+      "symbol": "ACN",
+      "name": "Accenture plc",
       "sources": [
         "sp500"
       ],
-      "globalScore": 79,
-      "qualityScore": 93,
-      "financialHealthScore": 91,
-      "profitabilityScore": 94,
-      "growthScore": 93,
-      "valuationScore": 94,
-      "technicalScore": 25,
-      "price": 111.54,
+      "globalScore": 80,
+      "qualityScore": 82,
+      "financialHealthScore": 79,
+      "profitabilityScore": 83,
+      "growthScore": 85,
+      "valuationScore": 78,
+      "technicalScore": 75,
+      "price": 229.68,
       "currency": "USD"
     },
     {
-      "rank": 37,
-      "symbol": "WDC",
-      "name": "Western Digital Corporation",
+      "rank": 28,
+      "symbol": "STLD",
+      "name": "Steel Dynamics, Inc.",
       "sources": [
         "sp500"
       ],
-      "globalScore": 79,
-      "qualityScore": 92,
-      "financialHealthScore": 81,
-      "profitabilityScore": 94,
+      "globalScore": 80,
+      "qualityScore": 79,
+      "financialHealthScore": 83,
+      "profitabilityScore": 60,
       "growthScore": 100,
-      "valuationScore": 71,
-      "technicalScore": 50,
-      "price": 397.28,
+      "valuationScore": 56,
+      "technicalScore": 100,
+      "price": 240.54,
       "currency": "USD"
     },
     {
-      "rank": 38,
+      "rank": 29,
       "symbol": "FFIV",
       "name": "F5, Inc.",
       "sources": [
@@ -652,28 +499,28 @@
       "growthScore": 78,
       "valuationScore": 33,
       "technicalScore": 100,
-      "price": 479.83,
+      "price": 442.03,
       "currency": "USD"
     },
     {
-      "rank": 39,
-      "symbol": "CIEN",
-      "name": "Ciena Corporation",
+      "rank": 30,
+      "symbol": "VEEV",
+      "name": "Veeva Systems Inc.",
       "sources": [
         "sp500"
       ],
       "globalScore": 79,
-      "qualityScore": 86,
-      "financialHealthScore": 81,
-      "profitabilityScore": 80,
-      "growthScore": 100,
-      "valuationScore": 36,
+      "qualityScore": 87,
+      "financialHealthScore": 78,
+      "profitabilityScore": 89,
+      "growthScore": 93,
+      "valuationScore": 33,
       "technicalScore": 100,
-      "price": 449.77,
+      "price": 310.36,
       "currency": "USD"
     },
     {
-      "rank": 40,
+      "rank": 31,
       "symbol": "EXPD",
       "name": "Expeditors International of Washington, Inc.",
       "sources": [
@@ -686,45 +533,62 @@
       "growthScore": 100,
       "valuationScore": 33,
       "technicalScore": 100,
-      "price": 193.24,
+      "price": 195.91,
       "currency": "USD"
     },
     {
-      "rank": 41,
-      "symbol": "TWLO",
-      "name": "Twilio Inc.",
+      "rank": 32,
+      "symbol": "GWW",
+      "name": "W.W. Grainger, Inc.",
       "sources": [
         "sp500"
       ],
       "globalScore": 79,
       "qualityScore": 84,
-      "financialHealthScore": 100,
-      "profitabilityScore": 59,
-      "growthScore": 100,
-      "valuationScore": 36,
+      "financialHealthScore": 86,
+      "profitabilityScore": 81,
+      "growthScore": 85,
+      "valuationScore": 44,
       "technicalScore": 100,
-      "price": 289.47,
+      "price": 1330.7,
       "currency": "USD"
     },
     {
-      "rank": 42,
-      "symbol": "XOM",
-      "name": "ExxonMobil Holdings Corporation",
+      "rank": 33,
+      "symbol": "ALL",
+      "name": "The Allstate Corporation",
       "sources": [
         "sp500"
       ],
       "globalScore": 79,
-      "qualityScore": 79,
-      "financialHealthScore": 76,
-      "profitabilityScore": 65,
-      "growthScore": 100,
-      "valuationScore": 79,
+      "qualityScore": 78,
+      "financialHealthScore": 53,
+      "profitabilityScore": 86,
+      "growthScore": 93,
+      "valuationScore": 86,
       "technicalScore": 75,
-      "price": 168.94,
+      "price": 247.88,
       "currency": "USD"
     },
     {
-      "rank": 43,
+      "rank": 34,
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 78,
+      "qualityScore": 91,
+      "financialHealthScore": 100,
+      "profitabilityScore": 78,
+      "growthScore": 100,
+      "valuationScore": 36,
+      "technicalScore": 75,
+      "price": 528.75,
+      "currency": "USD"
+    },
+    {
+      "rank": 35,
       "symbol": "DXCM",
       "name": "DexCom, Inc.",
       "sources": [
@@ -737,79 +601,79 @@
       "growthScore": 93,
       "valuationScore": 44,
       "technicalScore": 75,
-      "price": 84.11,
+      "price": 86.04,
       "currency": "USD"
     },
     {
-      "rank": 44,
-      "symbol": "VRTX",
-      "name": "Vertex Pharmaceuticals Incorporated",
+      "rank": 36,
+      "symbol": "CINF",
+      "name": "Cincinnati Financial Corporation",
       "sources": [
         "sp500"
       ],
       "globalScore": 78,
-      "qualityScore": 90,
+      "qualityScore": 87,
+      "financialHealthScore": 81,
+      "profitabilityScore": 81,
+      "growthScore": 100,
+      "valuationScore": 79,
+      "technicalScore": 50,
+      "price": 171.25,
+      "currency": "USD"
+    },
+    {
+      "rank": 37,
+      "symbol": "DECK",
+      "name": "Deckers Outdoor Corporation",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 78,
+      "qualityScore": 84,
       "financialHealthScore": 100,
       "profitabilityScore": 91,
-      "growthScore": 78,
-      "valuationScore": 44,
-      "technicalScore": 75,
-      "price": 510.08,
+      "growthScore": 60,
+      "valuationScore": 88,
+      "technicalScore": 50,
+      "price": 85.71,
       "currency": "USD"
     },
     {
-      "rank": 45,
-      "symbol": "STX",
-      "name": "Seagate Technology Holdings plc",
+      "rank": 38,
+      "symbol": "A",
+      "name": "Agilent Technologies, Inc.",
       "sources": [
         "sp500"
       ],
       "globalScore": 78,
-      "qualityScore": 88,
-      "financialHealthScore": 69,
-      "profitabilityScore": 94,
+      "qualityScore": 81,
+      "financialHealthScore": 83,
+      "profitabilityScore": 88,
+      "growthScore": 70,
+      "valuationScore": 50,
+      "technicalScore": 100,
+      "price": 172.97,
+      "currency": "USD"
+    },
+    {
+      "rank": 39,
+      "symbol": "FTNT",
+      "name": "Fortinet, Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 77,
+      "qualityScore": 95,
+      "financialHealthScore": 84,
+      "profitabilityScore": 100,
       "growthScore": 100,
-      "valuationScore": 54,
+      "valuationScore": 26,
       "technicalScore": 75,
-      "price": 783,
+      "price": 169.13,
       "currency": "USD"
     },
     {
-      "rank": 46,
-      "symbol": "GNRC",
-      "name": "Generac Holdings Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 78,
-      "qualityScore": 77,
-      "financialHealthScore": 76,
-      "profitabilityScore": 65,
-      "growthScore": 93,
-      "valuationScore": 54,
-      "technicalScore": 100,
-      "price": 224.94,
-      "currency": "USD"
-    },
-    {
-      "rank": 47,
-      "symbol": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "sources": [
-        "sp500"
-      ],
-      "globalScore": 78,
-      "qualityScore": 75,
-      "financialHealthScore": 66,
-      "profitabilityScore": 68,
-      "growthScore": 93,
-      "valuationScore": 63,
-      "technicalScore": 100,
-      "price": 262.43,
-      "currency": "USD"
-    },
-    {
-      "rank": 48,
+      "rank": 40,
       "symbol": "APP",
       "name": "AppLovin Corporation",
       "sources": [
@@ -822,28 +686,45 @@
       "growthScore": 100,
       "valuationScore": 78,
       "technicalScore": 25,
-      "price": 277.04,
+      "price": 266.13,
       "currency": "USD"
     },
     {
-      "rank": 49,
-      "symbol": "CSCO",
-      "name": "Cisco Systems, Inc.",
+      "rank": 41,
+      "symbol": "MRVL",
+      "name": "Marvell Technology, Inc.",
       "sources": [
         "sp500"
       ],
       "globalScore": 77,
-      "qualityScore": 82,
-      "financialHealthScore": 55,
-      "profitabilityScore": 94,
-      "growthScore": 93,
-      "valuationScore": 45,
-      "technicalScore": 100,
-      "price": 118.39,
+      "qualityScore": 91,
+      "financialHealthScore": 91,
+      "profitabilityScore": 83,
+      "growthScore": 100,
+      "valuationScore": 36,
+      "technicalScore": 75,
+      "price": 227.83,
       "currency": "USD"
     },
     {
-      "rank": 50,
+      "rank": 42,
+      "symbol": "RL",
+      "name": "Ralph Lauren Corporation",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 77,
+      "qualityScore": 83,
+      "financialHealthScore": 78,
+      "profitabilityScore": 86,
+      "growthScore": 85,
+      "valuationScore": 63,
+      "technicalScore": 75,
+      "price": 385.5,
+      "currency": "USD"
+    },
+    {
+      "rank": 43,
       "symbol": "AMP",
       "name": "Ameriprise Financial, Inc.",
       "sources": [
@@ -856,7 +737,126 @@
       "growthScore": 78,
       "valuationScore": 88,
       "technicalScore": 50,
-      "price": 500.51,
+      "price": 500.8,
+      "currency": "USD"
+    },
+    {
+      "rank": 44,
+      "symbol": "DDOG",
+      "name": "Datadog, Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 77,
+      "qualityScore": 80,
+      "financialHealthScore": 96,
+      "profitabilityScore": 54,
+      "growthScore": 100,
+      "valuationScore": 33,
+      "technicalScore": 100,
+      "price": 247.11,
+      "currency": "USD"
+    },
+    {
+      "rank": 45,
+      "symbol": "EBAY",
+      "name": "eBay Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 77,
+      "qualityScore": 80,
+      "financialHealthScore": 51,
+      "profitabilityScore": 91,
+      "growthScore": 93,
+      "valuationScore": 50,
+      "technicalScore": 100,
+      "price": 120.28,
+      "currency": "USD"
+    },
+    {
+      "rank": 46,
+      "symbol": "ROST",
+      "name": "Ross Stores, Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 77,
+      "qualityScore": 80,
+      "financialHealthScore": 73,
+      "profitabilityScore": 76,
+      "growthScore": 93,
+      "valuationScore": 44,
+      "technicalScore": 100,
+      "price": 236.89,
+      "currency": "USD"
+    },
+    {
+      "rank": 47,
+      "symbol": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 77,
+      "qualityScore": 79,
+      "financialHealthScore": 76,
+      "profitabilityScore": 65,
+      "growthScore": 100,
+      "valuationScore": 68,
+      "technicalScore": 75,
+      "price": 178.98,
+      "currency": "USD"
+    },
+    {
+      "rank": 48,
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies Corporation",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 77,
+      "qualityScore": 74,
+      "financialHealthScore": 39,
+      "profitabilityScore": 80,
+      "growthScore": 100,
+      "valuationScore": 66,
+      "technicalScore": 100,
+      "price": 369.01,
+      "currency": "USD"
+    },
+    {
+      "rank": 49,
+      "symbol": "GOOG",
+      "name": "Alphabet Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 76,
+      "qualityScore": 97,
+      "financialHealthScore": 100,
+      "profitabilityScore": 92,
+      "growthScore": 100,
+      "valuationScore": 61,
+      "technicalScore": 25,
+      "price": 336.91,
+      "currency": "USD"
+    },
+    {
+      "rank": 50,
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "sources": [
+        "sp500"
+      ],
+      "globalScore": 76,
+      "qualityScore": 97,
+      "financialHealthScore": 100,
+      "profitabilityScore": 92,
+      "growthScore": 100,
+      "valuationScore": 61,
+      "technicalScore": 25,
+      "price": 340.59,
       "currency": "USD"
     }
   ]
