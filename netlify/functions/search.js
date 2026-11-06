@@ -8,6 +8,13 @@ export const handler = async (event) => {
     'Access-Control-Allow-Headers': 'Content-Type',
     'Content-Type': 'application/json',
   };
+  // Ticker search results are essentially static: cache 24h at the CDN
+  // (durable = one shared copy across edge nodes) so an autocomplete is
+  // not one function invocation per keystroke-pause.
+  const cacheHeaders = {
+    'Netlify-CDN-Cache-Control': 'public, durable, s-maxage=86400, stale-while-revalidate=3600',
+    'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=3600',
+  };
 
   const query = event.queryStringParameters?.q || '';
 
@@ -34,7 +41,7 @@ export const handler = async (event) => {
     const searchData = await searchRes.json();
     return {
       statusCode: 200,
-      headers: corsHeaders,
+      headers: { ...corsHeaders, ...cacheHeaders },
       body: JSON.stringify(searchData),
     };
   } catch (err) {

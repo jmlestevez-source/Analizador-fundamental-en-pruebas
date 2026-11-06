@@ -292,13 +292,21 @@ function formatPercent(value) {
   return `${(value * 100).toFixed(2)}%`;
 }
 
-function response(statusCode, body, maxAgeSeconds = 60 * 60) {
+function response(statusCode, body, maxAgeSeconds = 60 * 60 * 6) {
+  // A plain Cache-Control is NOT honoured for serverless functions on
+  // Netlify: caching at the CDN must be opted in via Netlify-CDN-Cache-Control
+  // ('durable' keeps one shared copy across edge nodes). Without this every
+  // visit re-ran 4 Yahoo downloads (10y daily+weekly, stock+S&P500).
+  // Only successful responses are cached; errors ship no-store.
+  const cacheHeaders = statusCode === 200
+    ? {
+        'Netlify-CDN-Cache-Control': `public, durable, s-maxage=${maxAgeSeconds}, stale-while-revalidate=3600`,
+        'Cache-Control': `public, max-age=3600, s-maxage=${maxAgeSeconds}, stale-while-revalidate=3600`,
+      }
+    : { 'Cache-Control': 'no-store' };
   return {
     statusCode,
-    headers: {
-      ...CORS_HEADERS,
-      'Cache-Control': `public, max-age=${maxAgeSeconds}, s-maxage=${maxAgeSeconds}`,
-    },
+    headers: { ...CORS_HEADERS, ...cacheHeaders },
     body: JSON.stringify(body),
   };
 }

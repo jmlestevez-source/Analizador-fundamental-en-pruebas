@@ -8,6 +8,15 @@ export const handler = async (event) => {
     'Access-Control-Allow-Headers': 'Content-Type',
     'Content-Type': 'application/json',
   };
+  // Netlify CDN caching is opt-in: without Netlify-CDN-Cache-Control a
+  // serverless function is re-invoked on EVERY request. Quote data changes
+  // intraday, so 15 min at the edge + 5 min in the browser is plenty.
+  // Errors ship without cache headers (only 2xx is CDN-cacheable anyway,
+  // and the browser should not pin a stale 5xx).
+  const cacheHeaders = {
+    'Netlify-CDN-Cache-Control': 'public, durable, s-maxage=900, stale-while-revalidate=300',
+    'Cache-Control': 'public, max-age=300, s-maxage=900, stale-while-revalidate=300',
+  };
 
   // Extract ticker from path: /.netlify/functions/stock/AAPL
   const pathParts = (event.path || '').split('/');
@@ -90,7 +99,7 @@ export const handler = async (event) => {
 
   return {
     statusCode: 200,
-    headers: corsHeaders,
+    headers: { ...corsHeaders, ...cacheHeaders },
     body: JSON.stringify({ ...yahooData, finviz: finvizData }),
   };
 };

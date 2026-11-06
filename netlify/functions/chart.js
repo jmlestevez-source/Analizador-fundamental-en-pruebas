@@ -8,6 +8,11 @@ export const handler = async (event) => {
     'Access-Control-Allow-Headers': 'Content-Type',
     'Content-Type': 'application/json',
   };
+  // Historical chart data barely changes: 1h at the CDN, 10 min in browser.
+  const cacheHeaders = {
+    'Netlify-CDN-Cache-Control': 'public, durable, s-maxage=3600, stale-while-revalidate=600',
+    'Cache-Control': 'public, max-age=600, s-maxage=3600, stale-while-revalidate=600',
+  };
 
   // Extract params from path: /.netlify/functions/chart/AAPL/2y/1wk
   const pathParts = (event.path || '').split('/');
@@ -40,7 +45,7 @@ export const handler = async (event) => {
     const chartData = await chartRes.json();
     return {
       statusCode: 200,
-      headers: corsHeaders,
+      headers: { ...corsHeaders, ...cacheHeaders },
       body: JSON.stringify(chartData),
     };
   } catch (err) {
