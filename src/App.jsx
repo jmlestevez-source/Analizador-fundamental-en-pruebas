@@ -123,6 +123,13 @@ function App() {
 
     setSuggestions(localSuggestions.slice(0, 10));
 
+    // Avoid burning one Netlify Function invocation per keystroke-pause on
+    // 1-2 character queries: local suggestions already cover those. Only hit
+    // the remote Yahoo proxy from 3 chars upwards.
+    if (rawQuery.length < 3) {
+      return;
+    }
+
     const controller = new AbortController();
     const timer = setTimeout(async () => {
       try {
@@ -237,14 +244,15 @@ function App() {
     setLoadingScreener(true);
     setScreenerError(null);
 
-    const cacheBust = Date.now();
+    // Repositorio actual de pruebas. Se lee desde GitHub Raw para no necesitar
+    // un redeploy de Netlify cada vez que el workflow actualiza el JSON semanal.
+    // URLs estáticas: GitHub Raw ya sirve con max-age=300, así el navegador/CDN
+    // pueden cachear (antes se forzaba ?ts=Date.now() + no-store, que lo impedía).
     const urls = [
-      // Repositorio actual de pruebas. Se lee desde GitHub Raw para no necesitar
-      // un redeploy de Netlify cada vez que el workflow actualiza el JSON semanal.
-      `https://raw.githubusercontent.com/jmlestevez-source/Analizador-fundamental-en-pruebas/main/public/data/screener-top-50.json?ts=${cacheBust}`,
-      `https://raw.githubusercontent.com/jmlestevez-source/Analizador-fundamental-en-pruebas/master/public/data/screener-top-50.json?ts=${cacheBust}`,
+      'https://raw.githubusercontent.com/jmlestevez-source/Analizador-fundamental-en-pruebas/main/public/data/screener-top-50.json',
+      'https://raw.githubusercontent.com/jmlestevez-source/Analizador-fundamental-en-pruebas/master/public/data/screener-top-50.json',
       // Fallback local incluido en el último deploy de Netlify.
-      `/data/screener-top-50.json?ts=${cacheBust}`,
+      '/data/screener-top-50.json',
     ];
 
     try {
@@ -252,7 +260,7 @@ function App() {
 
       for (const url of urls) {
         try {
-          const response = await fetch(url, { cache: 'no-store' });
+          const response = await fetch(url);
           if (!response.ok) throw new Error(`${url} devolvió ${response.status}`);
 
           const data = await response.json();
