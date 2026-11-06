@@ -1,6 +1,12 @@
 [build]
   publish = "dist"
   command = "npm run build"
+  # Skip the production deploy when nothing the deployed site depends on changed.
+  # The weekly GitHub Actions screener cache commits (public/data/screener-top-50.json)
+  # and CI-only changes (.github/) do NOT trigger a rebuild: the app reads that JSON
+  # from GitHub Raw, so redeploying for it just burns 15 production deploy credits
+  # on the Netlify Free plan. Exit 0 = skip build, exit 1 = build (unsafe cases build).
+  ignore = "bash scripts/netlify-ignore.sh"
 
 [functions]
   directory = "netlify/functions"
